@@ -14,7 +14,7 @@ public class IoTest {
 	
 	public static void main(String[] args) {
 		ArrayList<String> fileList = getFiles("E:\\\\appFile");
-		
+		System.out.println("aa");
 		for(int i = 0;i<fileList.size();i++) {
 			readFile(new File(fileList.get(i)));
 		}
